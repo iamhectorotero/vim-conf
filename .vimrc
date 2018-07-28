@@ -13,3 +13,6 @@ set list
 " Vertical column for line width
 highlight ColorColumn ctermbg=lightgrey guibg=lightgrey
 set colorcolumn=100
+
+" Allow backspacing over indents, line breaks and before the start of current insert.
+set backspace=indent,eol,start
