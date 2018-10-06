@@ -1,5 +1,5 @@
 " Set errorbells off
-" Also add 'blacklist pcspkr' '/etc/modprobe.d/blacklist.conf' to disable terminal bells
+" Also add 'set bell-style visible' to .inputrc
 set belloff=all
 
 " Syntax highlighting
