@@ -1,3 +1,7 @@
+" Set errorbells off
+" Also add 'blacklist pcspkr' '/etc/modprobe.d/blacklist.conf' to disable terminal bells
+set belloff=all
+
 " Syntax highlighting
 syntax on
 
