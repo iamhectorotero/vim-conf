@@ -1,6 +1,6 @@
-" Set errorbells off
-" Also add 'set bell-style visible' to .inputrc
-set belloff=all
+" Set errorbells off. In later version of Vim it can be done with 'set belloff=all'
+" To disable bells at system level add 'set bell-style visible' to .inputrc
+set vb t_vb=
 
 " Syntax highlighting
 syntax on
