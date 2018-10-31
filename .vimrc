@@ -1,5 +1,7 @@
-" Set errorbells off. In later version of Vim it can be done with 'set belloff=all'
-" To disable bells at system level add 'set bell-style visible' to .inputrc
+" Set errorbells off. In later versions of Vim it can be done with 'set belloff=all'
+" To disable bells at system level as well, add:
+" - BASH: 'set bell-style visible' to .inputrc
+" - ZSH: 'unsetopt BEEP' to .zshrc
 set vb t_vb=
 
 " Syntax highlighting
