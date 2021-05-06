@@ -22,3 +22,11 @@ set colorcolumn=100
 
 " Allow backspacing over indents, line breaks and before the start of current insert.
 set backspace=indent,eol,start
+
+" Install vim-plug plugins
+call plug#begin('~/.vim/plugged')
+
+" Install Black, a Python code formatter
+Plug 'psf/black', { 'branch': 'stable' }
+
+call plug#end()
