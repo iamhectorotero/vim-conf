@@ -52,3 +52,13 @@ let g:ale_linters = {
 let g:ale_sign_column_always=1
 let g:ale_python_flake8_options = '--max-line-length=88 --ignore=E203,W503,E501'
 
+" sudo apt install gnome-tweaks
+" to swap ESC and Caps-Lock
+
+" Unmap enter, backspace and space for visual and normal mode
+vnoremap <CR> <nop>
+nnoremap <CR> <nop>
+vnoremap <BS> <nop>
+nnoremap <BS> <nop>
+vnoremap <space> <nop>
+nnoremap <space> <nop>
